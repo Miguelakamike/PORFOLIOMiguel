@@ -443,7 +443,7 @@ ENCIMA CAMBIE EL COLOR SINO NO */
 }
 
 
- /* CARACTERÍSTICAS PARA LA IMAGEN */
+ /* CARACTERÍSTICAS PARA LAS IMÁGENES */
 
 .section3-imgPokeCartas img {
   max-width: 100%;
@@ -479,20 +479,24 @@ ENCIMA CAMBIE EL COLOR SINO NO */
   color: rgb(85, 231, 219);
 }
 
+
+/* CARACTERÍSTICAS PARA LOS TEXTOS */
+
 .section3-recetaGalletas p {
   color: white;
   margin-top: 20px;
 }
+
+
+/* CARACTERÍSTICAS PARA LAS IMÁGENES */
 
 .section3-recetaGalletas img {
   max-width: 100%;
   max-height: 100%;
 }
 
-.section3-recetaGalletas a {
-  color: white;
-  text-decoration: none;
-}
+
+/* CARACTERÍSTICAS + TRANSICCIÓN PARA LOS "a" DE CADA IMAGEN */
 
 .section3-recetaGalletas a {
   color: white;
@@ -503,6 +507,8 @@ ENCIMA CAMBIE EL COLOR SINO NO */
 
 
 /* SECCIÓN 4 */
+
+/* PROPIEDADES GENERALES DIV DE LA SECCIÓN 4 */
 
 .section4 {
   display: flex;
@@ -515,10 +521,18 @@ ENCIMA CAMBIE EL COLOR SINO NO */
   width: 100%;
 }
 
+/* PROPIEDADES ETIQUETA "a" */
+
 .section4 a {
   color: black;
-  text-decoration: none;
+  text-decoration: none; /* he de añadir que el
+  text-decoration:none lo utilizo para que se
+  te quite el subrayado que te pone por defecto
+  el visual studio code al indicar que es un enlace */
 }
+
+
+/* PROPIEDADES DEL BUTTON */
 
 button {
   font-size: 30px;
