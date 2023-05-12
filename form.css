@@ -109,6 +109,8 @@ button {
     font-size: 30px;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
+    background-color: rgb(212, 208, 208);
+    border: 2px solid gray;
     padding: 30px;
     border-radius: 20px;
 }
