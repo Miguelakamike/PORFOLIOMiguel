@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- HECHO POR: MIGUEL VALDÉS DE TORRES 1ºDAW -->
+<!-- HECHO POR: MIGUEL VALDÉS DE TORRES (1ºDAW) -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- TÍTULO DE NUESTRA WEB EN EL NAVEGADOR -->
+
     <title>MI PORFOLIO</title>
+
+    <!-- ESTOS ENLACES SON IMPORTADOS DE (GOOGLE FONTS) -->
+    <!-- PARA ESTABLECER LOS DISTINTOS TIPOS DE LETRAS-->
 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,18 +25,31 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet">
 
-
-
 </head>
+
+<!-- DEFINIMOS LAS CORRESPONDIENTES ETIQUETAS DEL BODY -->
 
 <body>
 
+    <!-- A CONTINUACIÓN DEFINIREMOS EL MENÚ DE NAVEGACIÓN -->
     <div class="container">
 
+        <!-- AQUÍ INDICAMOS A QUE PARTE NOS QUEREMOS SITUAR
+        QUE EN ESTE CASO ES ANTES DEL PROPIO MENÚ ESTO SIRVE
+        PARA QUE POR DEFECTO NO TE SITUES MÁS ABAJO -->
         <div id="moveMenu"></div>
+
         <div class="menu">
+
+            <!-- ESTOS SON LOS DISTINTOS NAV QUE USAREMOS
+            PARA MOVERNOS ENTRE LAS DIFERENTES PARTES DE
+            NUESTRA PÁGINA WEB -->
             <nav>
+                
                 <ul>
+                    <!-- DEFINIDOS A CONTINUACIÓN LOS DISTINTOS
+                    NAV DE CADA SECCIÓN -->
+
                     <li><a href="#moveMenu">INICIO</a></li>
                     <li><a href="#movesec1">ACERCA DE MÍ</a></li>
                     <li><a href="#movesec2">FORMACIÓN ACADÉMICA</a></li>
@@ -42,6 +60,10 @@
 
 
             </nav>
+
+            <!-- ESTA CLASE SERÁ PARA MOVER EL LOGO
+            QUE IMPORTAMOS JUSTO DEBAJO -->
+
             <div class="moveRayo">
                 <img src="./IMG/rayoLogoSinFondo.png" alt="mi logo rayo">
             </div>
@@ -52,8 +74,12 @@
     </div>
 
     
+    <!-- SECCIÓN 1 DEFINIDA CON SU CLASE TÍTULO,
+    SU CLASE PARA LA IMAGEN Y PARA EL TEXTO
+    DE TÚ INFO DESCRIPTIVA -->
 
     <div class="section1" id="#movesec1">
+
         <div class="titulo-sobreMi">
             <h1>ACERCA</h1>
             <h1>DE MÍ</h1>
@@ -65,14 +91,23 @@
 
 
         <div class="texto-sobreMi">
+
             <p>Mi nombre es Miguel Valdés de Torres soy estudiante del centro de UNENDO</p>
+
             <p>Actualmente estoy en el primero curso de Desarrollo de Apllicaciones Web</p>
+
             <p>Soy una persona competente y me desenvuelvo muy bien trabajando en equipo</p>
+
         </div>
-    </div>
-
 
     </div>
+
+    </div>
+
+    <!-- SECCIÓN 2 DEFINIDA CON SU CLASE TÍTULO Y
+    SUS DISTINTAS ETIQUETAS "a" QUE TE LLEVARÁN A CADA
+    UNA DE LAS PÁGINAS WEB DE LOS CENTROS EN LOS QUE HE
+    CURSADO MI FORMACIÓN ACADÉMICA PULSADO SOBRE EL TEXTO -->
 
     <div id="movesec2"></div>
     <div class="section2">
@@ -93,43 +128,62 @@
 
     </div>
 
+    <!-- SECCIÓN 2¡3 DEFINIDA CON SU CLASE TÍTULO, LAS CLASES
+    PARA CADA UNA DE LAS IMÁGENES Y ADEMÁS SI PULSAS SOBRE EL
+    TÍTULO DE DIRIGIRÁ A GITHUB DÓNDE TENGO TODOS MIS REPOSITORIOS
+    Y PULSANDO SOBRE CADA IMAGEN TE LLEVARÁ AL REPOSITORIO DÓNDE
+    ESTÁ CADA PROYECTO SUBIDO EN GITHUB -->
+
     <div class="section3" id="movesec3">
 
         <div class="titlesec3">
+
             <h1> <a href="https://github.com/Miguelakamike?tab=repositories" target="_blank">MIS PROYECTOS</a></h1>
+
         </div>
 
         <div class="section3-imgHorario">
-            <h2><a href="https://github.com/Miguelakamike/HorarioHTML.git" target="_blank">HORARIO HTML</a>
+            
+            <h2><a href="https://github.com/Miguelakamike/HorarioHTML.git" target="_blank">HORARIO HTML</a></h2>
 
-            </h2>
             <a href="https://mellow-speculoos-bfee6e.netlify.app/" target="_blank">
-                <img src="./IMG/HorarioPorfolio.png" alt="este es mi horario de clase">
-            </a>
+
+            <img src="./IMG/HorarioPorfolio.png" alt="este es mi horario de clase"></a>
+
             <p>PULSE SOBRE LA IMAGEN 👆</p>
 
         </div>
 
         <div class="section3-imgPokeCartas">
+
             <h2><a href="https://github.com/Miguelakamike/PokeCartas.git" target="_blank">POKECARTAS</a></h2>
+
             <a href="https://main--rainbow-jalebi-7c335b.netlify.app/" target="_blank">
-                <img src="./IMG/Pokecartas.png" alt="estas son mis pokecartas">
+
+            <img src="./IMG/Pokecartas.png" alt="estas son mis pokecartas">
             </a>
+
             <p>PULSE SOBRE LA IMAGEN 👆</p>
 
         </div>
 
         <div class="section3-recetaGalletas">
-            <h2> <a href="https://github.com/Miguelakamike/RecetaGalletas.git" target="_blank">RECETA
-                    <br>GALLETAS</a></h2>
+
+            <h2> <a href="https://github.com/Miguelakamike/RecetaGalletas.git target="_blank">RECETA<br>GALLETAS</a></h2>
+
             <a href="https://rococo-bubblegum-c2cf00.netlify.app/" target="_blank">
-                <img src="./IMG/RecetaGalletas.png" alt="esta es la receta de mis galletas">
-            </a>
+
+            <img src="./IMG/RecetaGalletas.png" alt="esta es la receta de mis galletas"></a>
+
             <p>PULSE SOBRE LA IMAGEN 👆</p>
 
         </div>
 
     </div>
+
+    <!-- SECCIÓN 4 DEFINIDA A CONTINUACIÓN QUE CONTENDRÁ
+    AL BOTÓN PARA DIRIGIRTE A TÚ FORMULARIO -->
+
     <div class="section4" id="movesec4">
         <button>
             <a href="./form.html">
