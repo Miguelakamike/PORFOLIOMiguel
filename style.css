@@ -63,12 +63,14 @@ MENÚ DE NAVEGACIÓN */
   width: 100%;
 }
 
+
 /* PROPIEDADES PARA EL LOGO DE NUESTRO MENÚ */
 
 .menu img {
   height: 70px;
   width: 70px;
 }
+
 
 /* PROPIEDADES PARA LOS DISTINTOS li DE LA ul
 DE NUESTRO MENÚ DE NAVEGACIÓN */
@@ -77,6 +79,7 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   display: inline-block;
   margin-right: 30px;
 }
+
 
 /* PROPIEDADES PARA CADA UNO DE LOS a
 DE NUESTRO MENÚ DE NAVEGACIÓN */
@@ -97,7 +100,11 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   font-weight: bold;
 }
 
+
+
+
 /* SECCIÓN 1 */
+
 
 .section1 {
   background: rgb(255, 251, 247);
@@ -113,12 +120,21 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   width: 100%;
 }
 
+/* PROPIEDADES GENERALES DE LAS SIGUIENTES CLASES */
+
 .titulo-sobreMi,
 .section1-miImagen,
 .texto-sobreMi {
-  display: inline-block;
+  display: inline-block; /* esta propiedad la utilizamos para
+  que estén tanto el título grande, mi imagen y el texto
+  correctamente alineados */
   vertical-align: top;
 }
+
+
+/* PROPIEDADES PARA LAS FUENTES Y EL ALINEADO DEL TEXTO
+DEL TITULO SOBRE MÍ, EL TIULO "FORMACIÓN ACADÉMICA" &
+"MIS PROYECTOS" */
 
 .titulo-sobreMi,
 .titlesec2,
@@ -128,10 +144,16 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   font: bolder;
 }
 
+
+/* PROPIEDAES PARA LAS ETIQUETAS P DE MI INFO DESCRIPTIVA*/
+
 .texto-sobreMi p {
   text-align: justify;
   font-family: "Instrument Sans", sans-serif;
 }
+
+
+/* PROPIEDADES PARA LA POSICIÓN DEL TÍTULO "ACERCA DE MÍ"  */
 
 .titulo-sobreMi {
   height: 300px;
@@ -140,25 +162,19 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   margin-right: 200px;
 }
 
-.titulo-sobreMi h1 {
-  font-size: 80px;
-}
+
+/* DEFINIMOS AQUÍ LAS PROPIEADES DEL TÍTULO "ACERCA DE MÍ" */
 
 .titulo-sobreMi h1 {
+  font-size: 80px;
   color: white;
   max-width: 100%;
   max-height: 100%;
 }
 
-@keyframes sombraMiImagen {
-  from {
-    box-shadow: 0px 0px 0px solid black;
-  }
 
-  to {
-    box-shadow: 2px 4px 2px solid white;
-  }
-}
+/* AQUÍ DEFINIMOS LA POSICIÓN QUE VA A TENER NUESTRA IMAGEN
+UTILIZANDO LA PROPIEDAD "margin" Y AJUSTÁNDOLA SEGÚN NECESITEMOS */
 
 .section1-miImagen {
   height: 350px;
@@ -169,12 +185,8 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   margin-right: 20px;
 }
 
-.section1-miImagen img:hover {
-  animation-name: sombraMiImagen;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
+
+/* DEFINIMOS LAS CARACTERÍSTICAS DE NUESTRA IMAGEN */
 
 .section1-miImagen img {
   border-radius: 50%;
@@ -183,12 +195,19 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   max-height: 100%;
 }
 
+
+/* PROPIEDADES QUE VA A TENER EL DIV DE
+NUESTRO TEXTO INFORMATIVO */
+
 .texto-sobreMi {
   margin-left: 200px;
   height: 400px;
   width: 400px;
   margin-top: 100px;
 }
+
+
+/* ASIGNAMOS LAS PROPIEDADES DE NUESTRO TEXTO */
 
 .texto-sobreMi p {
   color: white;
@@ -197,7 +216,14 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   max-height: 100%;
 }
 
+
+
+
 /* SECCIÓN 2 */
+
+
+/* CARACTERÍSTICAS GENERALES DE NUESTRO DIV
+PARA TODA LA SEGUNDA SECCIÓN */
 
 .section2 {
   background-color: white;
@@ -206,10 +232,9 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   width: 100%;
 }
 
-.section2 p {
-  font-size: 15px;
-  font-family: "Instrument Sans", sans-serif;
-}
+
+/* AQUÍ DEFINIMOS LAS PROPIEDADES
+DE NUESTRO DIV PARA LA SECCIÓN 2 */
 
 .titlesec2 {
   display: flex;
@@ -219,6 +244,9 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   font-size: 15px;
 }
 
+/* AQUÍ DEFINIMOS LAS CARACTERÍSTICAS
+QUE VA A TENER NUESTRO TÍTULO DE LA SECCIÓN 2 */
+
 .section2 h2 a {
   color: black;
   text-decoration: none;
@@ -226,7 +254,23 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   letter-spacing: 5px;
 }
 
+
+/* CARACTERÍSTICAS PARA LAS ETIQUETAS P DE
+NUESTRA SECCION 2, ES DECIR, LOS AÑOS CURSADOS
+ASÍ CÓMO EL GRADO DEL MISMO */
+
+.section2 p {
+  font-size: 15px;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+
+
+
 /* SECCIÓN 3 */
+
+/* CARACTERÍSTICAS GENERALES DE NUESTRO DIV
+PARA TODA LA TERCERA SECCIÓN */
 
 .section3 {
   display: flex;
@@ -239,6 +283,10 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   letter-spacing: 5px;
 }
 
+
+/* PROPIEDADES COMUNES DE NUESTRO DIV DEL
+HORARIO HTML, DE LAS POKECARTAS Y DE LA RECETA */
+
 .section3-imgHorario,
 .section3-imgPokeCartas,
 .section3-recetaGalletas {
@@ -246,11 +294,21 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   vertical-align: top;
 }
 
+
+/* PROPIEDADES COMUNES DE NUESTRO DIV DEL
+HORARIO HTML, DE LAS POKECARTAS Y DE LA RECETA
+PARA LAS IMÁGENES */
+
 .section3-imgHorario,
 .section3-imgPokeCartas,
 .section3-recetaGalletas img {
   border-radius: 10px;
 }
+
+
+/* PROPIEDADES COMUNES DE NUESTRO DIV DEL
+HORARIO HTML, DE LAS POKECARTAS Y DE LA RECETA
+PARA LOS TEXTOS DE "PULSE SOBRE LA IMAGEN 👆" */
 
 .section3-imgHorario,
 .section3-imgPokeCartas,
@@ -259,6 +317,11 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   font-family: "Bebas Neue", sans-serif;
 }
 
+
+/* PROPIEDADES COMUNES DE NUESTRO DIV DEL
+HORARIO HTML, DE LAS POKECARTAS Y DE LA RECETA
+PARA LOS NOMBRES DE CADA UNO */
+
 .section3-imgHorario,
 .section3-imgPokeCartas,
 .section3-recetaGalletas h2 {
@@ -266,15 +329,26 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   font-family: "Bebas Neue", sans-serif;
 }
 
+
+/* CARACTERÍSTICAS GENERALES PARA LOS
+ELEMENTOS DE NUESTRA SECCION 3 */
+
 .titlesec3 {
   display: flex;
   justify-content: center;
   padding: 10px;
   font-size: 15px;
   margin-top: 200px;
-  text-decoration: overline underline;
+  text-decoration: overline underline; /* aquí destaco
+  que estuve buscando y descubrí que se pueden meter
+  dos propiedades a la vez de (text-decoration) siempre
+  y cuándo estén separados por un espacio " " */
   text-decoration-color: white;
 }
+
+
+/* PROPIEDADES PARA CADA UNO DE LOS TÍTULOS
+SU ETIQUETA "a". AQUÍ IMPLEMENTAMOS LA TRANSICIÓN */
 
 .titlesec3 a {
   text-decoration: none;
@@ -282,11 +356,19 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   transition: color 0.5s ease-in-out;
 }
 
+
+/* Y AQUÍ INDICAMOS EL COLOR AL QUE QUEREMOS QUE CAMBIE
+Y EL HOVER LO USAMOS PARA QUE CUÁNDO PASES EL MOUSE POR
+ENCIMA CAMBIE EL COLOR SINO NO */
+
 .titlesec3 a:hover {
   color: rgb(85, 231, 219);
 }
 
-/* SECCION 3: HORARIO HTML */
+
+/* | SECCION 3: HORARIO HTML | */
+
+/* CARACTERÍSTICAS DEL DIV DEL HORARIO HTML */
 
 .section3-imgHorario {
   height: 200px;
@@ -295,15 +377,22 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   margin-right: 20px;
 }
 
+/* PROPIEDADES TÍTULOS */
+
 .section3-imgHorario h2 {
   color: white;
   margin-top: 3px;
 }
 
+
+/* PROPIEDADES TEXTO */
+
 .section3-imgHorario p {
   color: white;
   margin-top: 30px;
 }
+
+/* PROPIEDADES IMÁGENES */
 
 .section3-imgHorario img {
   max-width: 100%;
@@ -311,17 +400,25 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   border-radius: 10px;
 }
 
+/* PROPIEDADES + TRANSICCIÓN PARA EL CAMBIO DE COLOR */
+
 .section3-imgHorario a {
   color: white;
   text-decoration: none;
   transition: color 0.5s ease-in-out;
 }
 
+
+/* CAMBIO DE COLOR AL PASAR EL MOUSE POR ENCIMA */
+
 .section3-imgHorario h2 a:hover {
   color: rgb(85, 231, 219);
 }
 
-/* SECCION 3: POKECARTAS */
+/* | SECCION 3: POKECARTAS | */
+
+
+/* CARACTERÍSTICAS DEL DIV DE LAS POKECARTAS */
 
 .section3-imgPokeCartas {
   height: 500px;
@@ -330,10 +427,23 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   margin-right: 20px;
 }
 
-.section3-imgPokeCartas a {
-  color: white;
-  text-decoration: none;
+
+/* CAMBIO DE COLOR AL PASAR EL MOUSE POR ENCIMA */
+
+.section3-imgPokeCartas h2 a:hover {
+  color: rgb(85, 231, 219);
 }
+
+
+/* CARACTERÍSTICAS PARA LOS TEXTOS */
+
+.section3-imgPokeCartas p {
+  color: white;
+  margin-top: 10px;
+}
+
+
+ /* CARACTERÍSTICAS PARA LA IMAGEN */
 
 .section3-imgPokeCartas img {
   max-width: 100%;
@@ -341,10 +451,7 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   border-radius: 10px;
 }
 
-.section3-imgPokeCartas p {
-  color: white;
-  margin-top: 10px;
-}
+/* CARACTERÍSTICAS + TRANSICCIÓN PARA LOS "a" DE CADA IMAGEN */
 
 .section3-imgPokeCartas a {
   color: white;
@@ -352,11 +459,10 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   transition: color 0.5s ease-in-out;
 }
 
-.section3-imgPokeCartas h2 a:hover {
-  color: rgb(85, 231, 219);
-}
 
 /* SECCION 3: GALLETAS */
+
+/* CARACTERÍSTICAS DEL DIV DE LAS GALLETAS */
 
 .section3-recetaGalletas {
   margin-left: 20px;
@@ -366,6 +472,13 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   border-radius: 10px;
 }
 
+
+/* CAMBIO DE COLOR AL PASAR EL MOUSE POR ENCIMA */
+
+.section3-recetaGalletas h2 a:hover {
+  color: rgb(85, 231, 219);
+}
+
 .section3-recetaGalletas p {
   color: white;
   margin-top: 20px;
@@ -387,9 +500,7 @@ DE NUESTRO MENÚ DE NAVEGACIÓN */
   transition: color 0.5s ease-in-out;
 }
 
-.section3-recetaGalletas h2 a:hover {
-  color: rgb(85, 231, 219);
-}
+
 
 /* SECCIÓN 4 */
 
