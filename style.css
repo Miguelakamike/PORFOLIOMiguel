@@ -1,5 +1,7 @@
 
-/* HECHO POR: MIGUEL VALDÉS DE TORRES 1ºDAW */
+/* HECHO POR: MIGUEL VALDÉS DE TORRES (1ºDAW) */
+
+/* ESTILOS DEL BODY */
 
 body {
   background: rgb(90, 88, 86);
@@ -15,6 +17,9 @@ body {
   );
 }
 
+/* ESTILOS GENERALES PARA LOS h2 &
+las etiquetas p */
+
 h2,
 p {
   text-align: center;
@@ -22,16 +27,24 @@ p {
 
 /* MENÚ */
 
+
+/* PROPIEDADES PARA LA LISTA DESORDENADA */
+
 ul {
   list-style: none;
   text-align: center;
 }
+
+/* PROPIEDADES PARA EL FONDO DEL
+MENÚ DE NAVEGACIÓN */
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* PROPIEDADES PARA LA CLASE MENÚ */
 
 .menu {
   display: flex;
@@ -50,15 +63,23 @@ ul {
   width: 100%;
 }
 
+/* PROPIEDADES PARA EL LOGO DE NUESTRO MENÚ */
+
 .menu img {
   height: 70px;
   width: 70px;
 }
 
+/* PROPIEDADES PARA LOS DISTINTOS li DE LA ul
+DE NUESTRO MENÚ DE NAVEGACIÓN */
+
 .menu li {
   display: inline-block;
   margin-right: 30px;
 }
+
+/* PROPIEDADES PARA CADA UNO DE LOS a
+DE NUESTRO MENÚ DE NAVEGACIÓN */
 
 .menu a {
   padding: 15px;

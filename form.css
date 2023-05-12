@@ -1,10 +1,16 @@
 
-/* HECHO POR: MIGUEL VALDÉS DE TORRES 1ºDAW */
+/* HECHO POR: MIGUEL VALDÉS DE TORRES (1ºDAW) */
+
+
+/* ESTILOS DEL BODY */
 
 body {
   background-image: url(./IMG/fondoFormulario.jpg);
   background-size: 100%;
 }
+
+/* ANIMACIONES CAMBIO DE COLOR Y CAMBIO
+COLOR DEL TEXTO DEL FORMULARIO */
 
 @keyframes cambioFormBackColor {
   from {
@@ -26,6 +32,8 @@ body {
   }
 }
 
+/* PROPIEDADES PARA EL PLACEHOLDER */
+
 ::placeholder {
   padding: 10px;
   background-color: black;
@@ -35,6 +43,8 @@ body {
   text-align: center;
 }
 
+/* PROPIEDADES PARA EL INMPUT (DATE) */
+
 input[type="date"] {
   padding: 10px;
   border-radius: 20px;
@@ -43,10 +53,15 @@ input[type="date"] {
   letter-spacing: 5px;
 }
 
+/* PROPIEDADES GENERALES PARA LOS LABEL */
+
 label {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
+/* PROPIEDADES PARA EL FONDO
+DEL TÍTULO DEL FORMULARIO */
 
 .sectionTitleForm {
   top: 0px;
@@ -59,6 +74,8 @@ label {
   width: 100%;
 }
 
+/* PROPIEDADES PARA EL TEXTO DEL FORMULARIO */
+
 .sectionTitleForm h1 {
   text-align: center;
   color: white;
@@ -66,6 +83,8 @@ label {
   font-family: "Righteous", cursive;
   letter-spacing: 8px;
 }
+
+/* PROPIEDADES DEL PROPIO FORMULARIO */
 
 .formulario {
   color: black;
@@ -81,6 +100,9 @@ label {
     cambioFormColorText 5s ease-in-out;
 }
 
+/* PROPIEDADES DEL FONDO DEL BUTTON 
+PARA VOLVER AL INICIO */
+
 .backMenu {
   display: flex;
   justify-content: center;
@@ -92,10 +114,15 @@ label {
   width: 100%;
 }
 
+/* PROPIEDADES DE LA ETIQUETA "a" 
+DEL PROPIO BUTTON */
+
 .backMenu a {
   color: black;
   text-decoration: none;
 }
+
+/* PROPIEDADES DEL BUTTON */
 
 button {
   font-size: 30px;
