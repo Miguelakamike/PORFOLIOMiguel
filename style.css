@@ -17,12 +17,8 @@ p {
   text-align: center;
 }
 
-/* MEDIAQUERIES */
-
-@media screen and (min-width:1010px) and (max-width:1535px) {
-        h1{
-            color: red;
-        }
+.container {
+  position: sticky;
 }
 
 /* MENÚ */
@@ -102,8 +98,10 @@ ul {
   vertical-align: top;
 }
 
-.titulo-sobreMi h1 {
+.titulo-sobreMi, .titlesec2, .titlesec3 h1 {
   text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font: bolder;
 }
 
 
