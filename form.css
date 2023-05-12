@@ -23,8 +23,29 @@ body {
     }
 }
 
-input::placeholder {
-    background-color: rgb(254, 255, 255);
+::placeholder {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+input[type="date"]{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-family: 'Wix Madefor Text', sans-serif;
+    letter-spacing: 5px;
+    
+}
+
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .sectionTitleForm {
