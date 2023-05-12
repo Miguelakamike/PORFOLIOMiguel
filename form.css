@@ -1,116 +1,108 @@
+
+/* HECHO POR: MIGUEL VALDÉS DE TORRES 1ºDAW */
+
 body {
-    background-image: url(./IMG/fondoFormulario.jpg);
-    background-size: 100%;
+  background-image: url(./IMG/fondoFormulario.jpg);
+  background-size: 100%;
 }
 
 @keyframes cambioFormBackColor {
-    from {
-        background-color: rgb(84, 83, 79);
-    }
+  from {
+    background-color: rgb(84, 83, 79);
+  }
 
-    to {
-        background-color: rgb(209, 252, 237);
-    }
+  to {
+    background-color: rgb(209, 252, 237);
+  }
 }
 
 @keyframes cambioFormColorText {
-    from {
-        color: white;
-    }
+  from {
+    color: white;
+  }
 
-    to {
-        color: black;
-    }
+  to {
+    color: black;
+  }
 }
 
 ::placeholder {
-    padding: 10px;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 15px;
-    text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
 }
 
-
-input[type="date"]{
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px solid white;
-    font-family: 'Wix Madefor Text', sans-serif;
-    letter-spacing: 5px;
-    
+input[type="date"] {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-family: "Wix Madefor Text", sans-serif;
+  letter-spacing: 5px;
 }
-
 
 label {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .sectionTitleForm {
-    top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(77, 72, 72);
-    text-align: center;
-    height: 200px;
-    width: 100%;
-
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 72, 72);
+  text-align: center;
+  height: 200px;
+  width: 100%;
 }
 
 .sectionTitleForm h1 {
-    text-align: center;
-    color: white;
-    font-size: 100px;
-    font-family: 'Righteous', cursive;
-    letter-spacing: 8px;
-
-
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: "Righteous", cursive;
+  letter-spacing: 8px;
 }
 
 .formulario {
-    color: black;
-    padding: 100px;
-    font-size: 20px;
-    width: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
-    margin: 0 auto;
-    border-radius: 10px;
-    margin-top: 200px;
-    background-color: rgb(209, 252, 237);
-    animation: cambioFormBackColor 5s ease-in-out, cambioFormColorText 5s ease-in-out;
-
+  color: black;
+  padding: 100px;
+  font-size: 20px;
+  width: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 200px;
+  background-color: rgb(209, 252, 237);
+  animation: cambioFormBackColor 5s ease-in-out,
+    cambioFormColorText 5s ease-in-out;
 }
 
-
-
-
-
 .backMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(77, 72, 72);
-    margin-top: 200px;
-    text-align: center;
-    height: 150px;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 72, 72);
+  margin-top: 200px;
+  text-align: center;
+  height: 150px;
+  width: 100%;
 }
 
 .backMenu a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-
 button {
-    font-size: 30px;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
-    background-color: rgb(212, 208, 208);
-    border: 2px solid gray;
-    padding: 30px;
-    border-radius: 20px;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  background-color: rgb(212, 208, 208);
+  border: 2px solid gray;
+  padding: 30px;
+  border-radius: 20px;
 }

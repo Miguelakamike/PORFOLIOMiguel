@@ -1,3 +1,6 @@
+
+/* HECHO POR: MIGUEL VALDÉS DE TORRES 1ºDAW */
+
 body {
   background: rgb(90, 88, 86);
   background: linear-gradient(
@@ -17,7 +20,6 @@ p {
   text-align: center;
 }
 
-
 /* MENÚ */
 
 ul {
@@ -29,10 +31,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-
-
 
 .menu {
   display: flex;
@@ -73,7 +72,7 @@ ul {
   text-decoration: none;
   font-size: 15px;
   color: black;
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -100,17 +99,17 @@ ul {
   vertical-align: top;
 }
 
-.titulo-sobreMi, .titlesec2, .titlesec3 h1 {
+.titulo-sobreMi,
+.titlesec2,
+.titlesec3 h1 {
   text-align: center;
-  font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
   font: bolder;
 }
 
-
 .texto-sobreMi p {
   text-align: justify;
-  font-family: 'Instrument Sans', sans-serif;
-
+  font-family: "Instrument Sans", sans-serif;
 }
 
 .titulo-sobreMi {
@@ -188,8 +187,7 @@ ul {
 
 .section2 p {
   font-size: 15px;
-  font-family: 'Instrument Sans', sans-serif;
-
+  font-family: "Instrument Sans", sans-serif;
 }
 
 .titlesec2 {
@@ -203,7 +201,7 @@ ul {
 .section2 h2 a {
   color: black;
   text-decoration: none;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -227,7 +225,6 @@ ul {
   vertical-align: top;
 }
 
-
 .section3-imgHorario,
 .section3-imgPokeCartas,
 .section3-recetaGalletas img {
@@ -238,14 +235,14 @@ ul {
 .section3-imgPokeCartas,
 .section3-recetaGalletas p {
   font-size: 20px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .section3-imgHorario,
 .section3-imgPokeCartas,
 .section3-recetaGalletas h2 {
   font-size: 20px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .titlesec3 {
@@ -393,7 +390,7 @@ ul {
 
 button {
   font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   background-color: rgb(212, 208, 208);
   border: 2px solid gray;
   font-weight: bold;
