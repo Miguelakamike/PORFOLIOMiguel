@@ -17,9 +17,6 @@ p {
   text-align: center;
 }
 
-.container {
-  position: sticky;
-}
 
 /* MENÚ */
 
@@ -32,7 +29,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+
+
 
 .menu {
   display: flex;
@@ -73,6 +73,8 @@ ul {
   text-decoration: none;
   font-size: 15px;
   color: black;
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: bold;
 }
 
 /* SECCIÓN 1 */
@@ -107,6 +109,8 @@ ul {
 
 .texto-sobreMi p {
   text-align: justify;
+  font-family: 'Instrument Sans', sans-serif;
+
 }
 
 .titulo-sobreMi {
@@ -181,6 +185,11 @@ ul {
   width: 100%;
 }
 
+.section2 p {
+  font-size: 15px;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
 .titlesec2 {
   display: flex;
   justify-content: center;
@@ -197,6 +206,8 @@ ul {
 /* SECCIÓN 3 */
 
 .section3 {
+  display: flex;
+  justify-content: space-evenly;
   background-color: black;
   margin-top: 0px;
   text-align: center;
@@ -234,6 +245,7 @@ ul {
   justify-content: center;
   padding: 10px;
   font-size: 15px;
+  margin-top: 200px;
   text-decoration: overline underline;
   text-decoration-color: white;
 }
@@ -373,6 +385,9 @@ ul {
 
 button {
   font-size: 30px;
-  padding: 30px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  padding: 20px;
+  width: 300px;
   border-radius: 20px;
 }
